@@ -1,7 +1,7 @@
 from math import pi
 
 square_length = float(input('What is the length of a side of the square? '))
-square_area = square_length*square_length
+square_area = square_length**2
 print(f'The area of the square is: {square_area}')
 retangle_len = float(input('What is the length of rectangle? '))
 retangle_width = float(input('What is the width of the rectangle? '))
@@ -16,6 +16,7 @@ square_area = single_len**2
 circle_area = pi*single_len**2
 cube_volume = single_len**3
 sphere_volume = 4/3*pi*single_len**3
+
 print(f"""
 -------------------------------------
 square area: {square_area}

@@ -1,4 +1,3 @@
-# MADE BY GABRRIEL CHAGAS BOFF
 
 from datetime import datetime
 
